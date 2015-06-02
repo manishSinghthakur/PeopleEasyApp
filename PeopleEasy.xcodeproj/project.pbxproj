@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07EB47781B1DBA710077446E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EB47771B1DBA710077446E /* main.m */; };
+		07EB477B1B1DBA710077446E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EB477A1B1DBA710077446E /* AppDelegate.m */; };
+		07EB477E1B1DBA720077446E /* PeopleEasy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07EB477C1B1DBA720077446E /* PeopleEasy.xcdatamodeld */; };
+		07EB47811B1DBA720077446E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EB47801B1DBA720077446E /* ViewController.m */; };
+		07EB47841B1DBA720077446E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07EB47821B1DBA720077446E /* Main.storyboard */; };
+		07EB47861B1DBA720077446E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07EB47851B1DBA720077446E /* Images.xcassets */; };
+		07EB47891B1DBA720077446E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07EB47871B1DBA720077446E /* LaunchScreen.xib */; };
+		07EB47951B1DBA720077446E /* PeopleEasyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EB47941B1DBA720077446E /* PeopleEasyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07EB478F1B1DBA720077446E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07EB476A1B1DBA710077446E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07EB47711B1DBA710077446E;
+			remoteInfo = PeopleEasy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07EB47721B1DBA710077446E /* PeopleEasy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeopleEasy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07EB47761B1DBA710077446E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07EB47771B1DBA710077446E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07EB47791B1DBA710077446E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07EB477A1B1DBA710077446E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07EB477D1B1DBA720077446E /* PeopleEasy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PeopleEasy.xcdatamodel; sourceTree = "<group>"; };
+		07EB477F1B1DBA720077446E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07EB47801B1DBA720077446E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07EB47831B1DBA720077446E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07EB47851B1DBA720077446E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		07EB47881B1DBA720077446E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		07EB478E1B1DBA720077446E /* PeopleEasyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeopleEasyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07EB47931B1DBA720077446E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07EB47941B1DBA720077446E /* PeopleEasyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeopleEasyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07EB476F1B1DBA710077446E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07EB478B1B1DBA720077446E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07EB47691B1DBA710077446E = {
+			isa = PBXGroup;
+			children = (
+				07EB47741B1DBA710077446E /* PeopleEasy */,
+				07EB47911B1DBA720077446E /* PeopleEasyTests */,
+				07EB47731B1DBA710077446E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07EB47731B1DBA710077446E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07EB47721B1DBA710077446E /* PeopleEasy.app */,
+				07EB478E1B1DBA720077446E /* PeopleEasyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07EB47741B1DBA710077446E /* PeopleEasy */ = {
+			isa = PBXGroup;
+			children = (
+				07EB47791B1DBA710077446E /* AppDelegate.h */,
+				07EB477A1B1DBA710077446E /* AppDelegate.m */,
+				07EB477F1B1DBA720077446E /* ViewController.h */,
+				07EB47801B1DBA720077446E /* ViewController.m */,
+				07EB47821B1DBA720077446E /* Main.storyboard */,
+				07EB47851B1DBA720077446E /* Images.xcassets */,
+				07EB47871B1DBA720077446E /* LaunchScreen.xib */,
+				07EB477C1B1DBA720077446E /* PeopleEasy.xcdatamodeld */,
+				07EB47751B1DBA710077446E /* Supporting Files */,
+			);
+			path = PeopleEasy;
+			sourceTree = "<group>";
+		};
+		07EB47751B1DBA710077446E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07EB47761B1DBA710077446E /* Info.plist */,
+				07EB47771B1DBA710077446E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07EB47911B1DBA720077446E /* PeopleEasyTests */ = {
+			isa = PBXGroup;
+			children = (
+				07EB47941B1DBA720077446E /* PeopleEasyTests.m */,
+				07EB47921B1DBA720077446E /* Supporting Files */,
+			);
+			path = PeopleEasyTests;
+			sourceTree = "<group>";
+		};
+		07EB47921B1DBA720077446E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07EB47931B1DBA720077446E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07EB47711B1DBA710077446E /* PeopleEasy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07EB47981B1DBA720077446E /* Build configuration list for PBXNativeTarget "PeopleEasy" */;
+			buildPhases = (
+				07EB476E1B1DBA710077446E /* Sources */,
+				07EB476F1B1DBA710077446E /* Frameworks */,
+				07EB47701B1DBA710077446E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeopleEasy;
+			productName = PeopleEasy;
+			productReference = 07EB47721B1DBA710077446E /* PeopleEasy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07EB478D1B1DBA720077446E /* PeopleEasyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07EB479B1B1DBA720077446E /* Build configuration list for PBXNativeTarget "PeopleEasyTests" */;
+			buildPhases = (
+				07EB478A1B1DBA720077446E /* Sources */,
+				07EB478B1B1DBA720077446E /* Frameworks */,
+				07EB478C1B1DBA720077446E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07EB47901B1DBA720077446E /* PBXTargetDependency */,
+			);
+			name = PeopleEasyTests;
+			productName = PeopleEasyTests;
+			productReference = 07EB478E1B1DBA720077446E /* PeopleEasyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07EB476A1B1DBA710077446E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Esfera;
+				TargetAttributes = {
+					07EB47711B1DBA710077446E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					07EB478D1B1DBA720077446E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 07EB47711B1DBA710077446E;
+					};
+				};
+			};
+			buildConfigurationList = 07EB476D1B1DBA710077446E /* Build configuration list for PBXProject "PeopleEasy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07EB47691B1DBA710077446E;
+			productRefGroup = 07EB47731B1DBA710077446E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07EB47711B1DBA710077446E /* PeopleEasy */,
+				07EB478D1B1DBA720077446E /* PeopleEasyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07EB47701B1DBA710077446E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07EB47841B1DBA720077446E /* Main.storyboard in Resources */,
+				07EB47891B1DBA720077446E /* LaunchScreen.xib in Resources */,
+				07EB47861B1DBA720077446E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07EB478C1B1DBA720077446E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07EB476E1B1DBA710077446E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07EB477B1B1DBA710077446E /* AppDelegate.m in Sources */,
+				07EB47781B1DBA710077446E /* main.m in Sources */,
+				07EB47811B1DBA720077446E /* ViewController.m in Sources */,
+				07EB477E1B1DBA720077446E /* PeopleEasy.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07EB478A1B1DBA720077446E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07EB47951B1DBA720077446E /* PeopleEasyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07EB47901B1DBA720077446E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07EB47711B1DBA710077446E /* PeopleEasy */;
+			targetProxy = 07EB478F1B1DBA720077446E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07EB47821B1DBA720077446E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07EB47831B1DBA720077446E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07EB47871B1DBA720077446E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07EB47881B1DBA720077446E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07EB47961B1DBA720077446E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07EB47971B1DBA720077446E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07EB47991B1DBA720077446E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PeopleEasy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07EB479A1B1DBA720077446E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PeopleEasy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		07EB479C1B1DBA720077446E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PeopleEasyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeopleEasy.app/PeopleEasy";
+			};
+			name = Debug;
+		};
+		07EB479D1B1DBA720077446E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PeopleEasyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeopleEasy.app/PeopleEasy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07EB476D1B1DBA710077446E /* Build configuration list for PBXProject "PeopleEasy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07EB47961B1DBA720077446E /* Debug */,
+				07EB47971B1DBA720077446E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07EB47981B1DBA720077446E /* Build configuration list for PBXNativeTarget "PeopleEasy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07EB47991B1DBA720077446E /* Debug */,
+				07EB479A1B1DBA720077446E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07EB479B1B1DBA720077446E /* Build configuration list for PBXNativeTarget "PeopleEasyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07EB479C1B1DBA720077446E /* Debug */,
+				07EB479D1B1DBA720077446E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		07EB477C1B1DBA720077446E /* PeopleEasy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				07EB477D1B1DBA720077446E /* PeopleEasy.xcdatamodel */,
+			);
+			currentVersion = 07EB477D1B1DBA720077446E /* PeopleEasy.xcdatamodel */;
+			path = PeopleEasy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 07EB476A1B1DBA710077446E /* Project object */;
+}

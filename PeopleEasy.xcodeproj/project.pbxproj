@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		065956C01D672E410017F3D5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 065956BF1D672E410017F3D5 /* DetailViewController.m */; };
 		07EB47781B1DBA710077446E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EB47771B1DBA710077446E /* main.m */; };
 		07EB477B1B1DBA710077446E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EB477A1B1DBA710077446E /* AppDelegate.m */; };
 		07EB477E1B1DBA720077446E /* PeopleEasy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07EB477C1B1DBA720077446E /* PeopleEasy.xcdatamodeld */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		065956BE1D672E410017F3D5 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		065956BF1D672E410017F3D5 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		07EB47721B1DBA710077446E /* PeopleEasy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeopleEasy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07EB47761B1DBA710077446E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07EB47771B1DBA710077446E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -87,6 +90,8 @@
 				07EB477A1B1DBA710077446E /* AppDelegate.m */,
 				07EB477F1B1DBA720077446E /* ViewController.h */,
 				07EB47801B1DBA720077446E /* ViewController.m */,
+				065956BE1D672E410017F3D5 /* DetailViewController.h */,
+				065956BF1D672E410017F3D5 /* DetailViewController.m */,
 				07EB47821B1DBA720077446E /* Main.storyboard */,
 				07EB47851B1DBA720077446E /* Images.xcassets */,
 				07EB47871B1DBA720077446E /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				065956C01D672E410017F3D5 /* DetailViewController.m in Sources */,
 				07EB477B1B1DBA710077446E /* AppDelegate.m in Sources */,
 				07EB47781B1DBA710077446E /* main.m in Sources */,
 				07EB47811B1DBA720077446E /* ViewController.m in Sources */,
@@ -416,6 +422,7 @@
 				07EB479A1B1DBA720077446E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07EB479B1B1DBA720077446E /* Build configuration list for PBXNativeTarget "PeopleEasyTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				07EB479D1B1DBA720077446E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
